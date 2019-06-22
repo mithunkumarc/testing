@@ -1,4 +1,5 @@
 function hello(){
-    console.log("hello");
+    return (a,b) => a + b;
 }
-hello();
+add = hello();
+console.log(add(3,5));
