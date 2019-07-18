@@ -1,8 +1,7 @@
 let factorial = function(number){
     let result = 1;
-    while(number>0){
-        result = result * number;
-        number--;
+    for(let i = 1 ; i <= number ; i++){
+        result =result * i;
     }
     return result;
 }
