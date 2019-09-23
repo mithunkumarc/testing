@@ -3,3 +3,4 @@ function hello(){
 }
 add = hello();
 console.log(add(3,5));
+console.log("hello");
